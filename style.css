@@ -1,0 +1,133 @@
+body {
+    font: Roboto;
+}
+
+.header,.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0px 100px 0px 100px;
+  
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+.header-links{
+    display: flex;
+    color: #E5E7Eb;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.hero {
+    padding: 50px 100px 100px 100px;
+}
+
+.theText{
+    margin: 10px;
+}
+.batman {
+    width: 800px;
+    height: 300px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.subText {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.signUp {
+    background-color: #3882F6;
+    font-weight: 700;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.informationHeader{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.informationContainer{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+.info {
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+.blank{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+
+.quote {
+    padding: 100px;
+    background-color: #E5E7Eb;
+}
+
+.quoteText{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+
+}
+
+.quotePerson {
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /*some how this fix the button */
+    background-color: #3882F6;
+    color: white;
+    margin: 100px 200px;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.boxMainText{
+    font-weight: 900;
+}
+.actionSignUp {
+    flex-shrink: 1;
+    background-color: #3882F6;
+    font-weight: 700;
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7Eb;
+    background-color: #1F2937;
+}
